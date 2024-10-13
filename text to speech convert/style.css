@@ -1,0 +1,53 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 218, 254);
+}
+#main{
+    margin-top: 180px;
+    text-align: center;
+    border: 10px solid rgb(253, 147, 72);
+    border-radius: 10px;
+    width: 390px;
+    padding-top: 25px;
+    padding-left: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+#heading{padding-left: 25px;
+}
+#textInput{
+    resize: none;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+#textInput::-webkit-scrollbar{
+    display: none;
+}
+#speech{
+    padding-top: 25px;
+}
+#voice-div{
+    padding-top: 35px;
+    padding-left: 120px;
+    margin-bottom: 40px;
+}
+#voiceType{
+    font-size:15px;
+}
+#voicebtn{
+    cursor:pointer;
+    font-size:20px;
+    padding: 5px 10px;
+    background-color: rgb(100, 99, 99);
+    color:white;
+}
+#voicebtn:hover{
+    background-color:rgb(65, 66, 64);
+}
+#voicebtn:active{
+    background-color: black;
+}

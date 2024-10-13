@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counter</title>
+        <link rel="stylesheet" href="counter_style.css">
+    </head>
+    <body>
+        <h1>Dynamic Counter Interface</h1>
+        <div id="div-tag">
+            <p id="para-tag">0</p>
+            <div class="button-div-tag">
+                <button id="decButton-tag">Decrement</button>
+            
+                <button id="incButton-tag">Increment</button>
+            </div>
+        </div>
+        <script>
+            const counterValue = document.getElementById("para-tag");
+            const incButton= document.getElementById("incButton-tag");
+            const decButton = document.getElementById("decButton-tag");
+
+            let count=0;
+            
+            //Incrementinig the value
+            incButton.addEventListener("click",function()
+            {
+                count++;
+                counterValue.innerHTML=count;
+            });
+
+            //Decrementing the value
+            decButton.addEventListener("click",function()
+            {
+                count--;
+                counterValue.innerHTML=count;
+            });
+
+        </script>
+    </body>
+</html>

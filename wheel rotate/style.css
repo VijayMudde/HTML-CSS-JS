@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+}
+.orange{
+    background-color: orange;
+    height:90px;
+    width:500px;
+}
+.white{
+    background-color: rgb(252, 251, 251);
+    height:90px;
+    width:500px;
+    position: relative;
+}
+.green{
+    background-color: green;
+    height:90px;
+    width:500px;
+}
+.wheel-image{
+    position: absolute;
+    top:21%;
+    left:730px;
+    animation-name: rotation;
+    animation-duration: 10s;
+}
+@keyframes rotation{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}

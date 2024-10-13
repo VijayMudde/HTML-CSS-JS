@@ -1,0 +1,79 @@
+body{
+    background-image:url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 830px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+#first-container{
+    text-align: center;
+    border:2px solid black;
+    border-radius: 20px;
+    width:400px;
+    height:auto;
+    
+}
+#loc-div{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#loc-div-i{
+    padding-left: 5px;
+    margin-left: 50px;
+    padding-right: 55px;
+    size:70px;
+    
+}
+#loc-search{
+    margin-left: 20px;
+    border:2px solid black;
+}
+#cloud-img{
+    height:100px ;
+    width:100px
+}
+#cloud-image-div{
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+#temp-h4{
+    padding-left: 150px;
+    font-size: 40px;
+}
+#temp-span-2{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#temp-span-1{
+    padding-left: 5px;
+    padding-bottom: 7px;
+    font-size: 20px;
+}
+#temp-des{
+    margin-bottom: 40px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 550;
+
+}
+#temp-area,#temp-area-p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+#temp-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -40px;
+}
+#search-image{
+    height:25px;
+    width:30px;
+}

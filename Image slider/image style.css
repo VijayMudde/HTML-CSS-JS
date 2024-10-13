@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(158, 155, 155);
+    overflow: hidden;
+}
+#heading{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: -50px;
+}
+#main{
+    padding-top: 100px;
+}
+#image{
+    height: 600px;
+    width: 900px;
+}

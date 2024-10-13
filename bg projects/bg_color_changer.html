@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BG Color Change</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(102, 136, 241);
+                transition: background-color 1s;
+            }
+            #choose-tag{
+                padding-top:270px;
+            }
+            #text{
+                font-size:30px;
+                margin-right:10px;
+                color:white;
+                padding-left: 220px;
+            }
+            #color-select{
+                width:80px;
+                height: 30px;
+            }
+            h1{
+                padding-left: 170px;
+                padding-top: 30px;
+            }
+            p{
+                padding-top: 40px;
+                font-size:25px;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <div id="main">
+            <h1>Background Color Changer</h1>
+            <p>Select any color then the background of this page is changed to that color.</p>
+            <div id="choose-tag">
+                <label id="text">Choose Color - </label>
+                <input type="color" id="color-select">
+            </div>
+        </div>
+
+    <script>
+        let colorInput = document.getElementById("color-select");
+
+        colorInput.addEventListener("input",function(){
+            document.body.style.background = this.value;
+        })
+    
+    </script>
+    </body>
+</html>

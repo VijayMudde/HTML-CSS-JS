@@ -1,0 +1,32 @@
+body{
+    background-color: darkturquoise;
+}
+h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+#para-tag{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+.button-div-tag{
+    text-align: center;
+    padding-top: 50px;
+}
+#incButton-tag{
+    border: 2px double rgb(8, 27, 241);
+    padding: 10px;
+    background-color: rgb(254, 160, 77);
+    margin-left: 50px;
+    font-weight: 900;
+    
+}
+#decButton-tag{
+    border: 2px double rgb(8, 27, 241);
+    padding: 10px;
+    background-color:rgb(254, 160, 77);
+    margin-right: 50px;
+    font-weight: 900;
+}
